@@ -1,0 +1,18 @@
+.API{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button{
+        margin-top: 30px;
+        width: 90%;
+        height: 50px;
+        border: none;
+        background-color: #75f2ff;
+        cursor: pointer;
+        &:hover{
+            background-color: #3bedff;
+        }
+    }
+}

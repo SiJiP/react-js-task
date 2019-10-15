@@ -1,0 +1,38 @@
+.ToDoList{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+       width: 500px;
+       height: 30px;
+       font-size: 24px;
+       border: 1px solid #69f2ff;
+       border-radius: 5px;
+       box-shadow: 1px 1px 1px #ccc;
+       margin-top: 30px;
+    }
+    button{
+        height: 30px;
+        margin: 5px 0;
+        width: 500px;
+        border: none;
+        background-color: #a8f8ff;
+        color: darkslateblue;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #69f2ff;
+            box-shadow: 1px 1px 1px #ccc;
+        }
+    }
+}
